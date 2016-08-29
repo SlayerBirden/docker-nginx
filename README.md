@@ -1,4 +1,4 @@
 # docker-nginx
 Docker nginx image based on official nginx:alpine.
 
-Changed UID of *nginx* user to 1000.
+Add user www-data with UID 1000 and specify it as nginx user.
